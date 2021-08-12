@@ -5,5 +5,5 @@ A set of **sql scripts**, non-related to each other, that i write for casual job
 It contains:
 
 - Biblioteca.sql
-	> Contains information about a library, and makes some basci queries.
+	> Contains information about a library, and makes some basic queries.
 
