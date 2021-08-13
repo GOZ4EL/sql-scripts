@@ -20,7 +20,7 @@ CREATE TABLE empleado(
 	codigo_departamento INT(10) NOT NULL,
 	PRIMARY KEY (codigo),
 	CONSTRAINT FK_departamento_empleado FOREIGN KEY (codigo_departamento)
-	REFERENCES departamento(codigo)
+		REFERENCES departamento(codigo)
 );
 ALTER TABLE empleado
 ADD UNIQUE(nif);
@@ -54,14 +54,14 @@ INSERT INTO empleado VALUES(13, "V23678900", "Giuseppina", "Coletti", "Gozaine",
 SELECT empleado.*,
 departamento.nombre AS nombre_departamento 
 FROM empleado 
-INNER JOIN departamento ON empleado.codigo_departamento = departamento.codigo;
+JOIN departamento ON empleado.codigo_departamento = departamento.codigo;
 
 --Consulta de todos los empleados con el nombre del departamento, pertenecientes a los
 --departamentos 001 o 003:
 SELECT empleado.nif, empleado.nombre, empleado.apellido1, empleado.apellido2, 
 departamento.nombre AS departamento 
 FROM empleado 
-INNER JOIN departamento ON empleado.codigo_departamento = departamento.codigo
+JOIN departamento ON empleado.codigo_departamento = departamento.codigo
 WHERE departamento.codigo = 001 OR departamento.codigo = 003;
 
 --Consulta que muestra todos los empleados cuyo apellido comience por "P" o "R":
@@ -73,5 +73,42 @@ OR apellido1 LIKE "R%" OR apellido2 LIKE "R%";
 --presupuesto mayor a 10.000.000:
 SELECT empleado.* FROM empleado 
 LEFT JOIN departamento ON departamento.codigo = empleado.codigo_departamento
-WHERE departamento.presupuesto > 10000;
+WHERE departamento.presupuesto > 10000000;
 
+--Consulta de todos los empleados cuyo departamento tenga un presupuesto
+--entre los 5.000.000 y los 15.000.000:
+SELECT empleado.* FROM empleado
+LEFT JOIN departamento ON departamento.codigo = empleado.codigo_departamento
+WHERE departamento.presupuesto BETWEEN 5000000 AND 15000000;
+
+--Consulta de todos los empleados cuyo nombre de departamento empiece con "S":
+SELECT empleado.* FROM empleado
+LEFT JOIN departamento ON departamento.codigo = empleado.codigo_departamento
+WHERE departamento.nombre LIKE "S%";
+
+--Consulta de todos los empleados cuyo apellido contenga "MAR":
+SELECT * FROM empleado 
+WHERE UPPER(apellido1) LIKE "%MAR%" OR UPPER(apellido2) LIKE "%MAR%";
+
+--Consulta que muestra el código, nombre del empleado, código del departamento y
+--nombre del departamento ordenado por el nombre del departamento 
+--de forma descendente:
+SELECT empleado.codigo AS codigo_empleado, empleado.nombre AS nombre_empleado, 
+empleado.codigo_departamento, departamento.nombre AS nombre_departamento
+FROM empleado
+JOIN departamento ON departamento.codigo = empleado.codigo_departamento
+ORDER BY departamento.nombre DESC;
+
+--Consulta que muestra el código, nombre del empleado, apellido1, 
+--código departamento y nombre del departamento ordenado por el apellido1:
+SELECT empleado.codigo AS codigo_empleado, empleado.nombre AS nombre_empleado,
+empleado.apellido1 AS apellido, empleado.codigo_departamento,
+departamento.nombre AS nombre_departamento 
+FROM empleado
+JOIN departamento ON departamento.codigo = empleado.codigo_departamento
+ORDER BY empleado.apellido1;
+
+--Consulta que hace uso de LEFT JOIN:
+SELECT apellido1, apellido2, departamento.nombre AS nombre_departamento
+FROM empleado
+LEFT JOIN departamento ON departamento.codigo = empleado.codigo_departamento;
