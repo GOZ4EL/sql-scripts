@@ -26,14 +26,14 @@ ALTER TABLE empleado
 ADD UNIQUE(nif);
 
 --Creación de departamentos para hacer pruebas:
-INSERT INTO departamento VALUES(1, "Ventas", 3000);
-INSERT INTO departamento VALUES(2, "Recursos Humanos", 1000);
-INSERT INTO departamento VALUES(3, "Ingeniería", 20000);
-INSERT INTO departamento VALUES(4, "Marketing", 100000);
-INSERT INTO departamento VALUES(5, "Diseño Gráfico", 9234.78);
-INSERT INTO departamento VALUES(6, "Salud", 8234.99);
-INSERT INTO departamento VALUES(7, "Sistemas", 7000);
-INSERT INTO departamento VALUES(8, "Arte", 4567.96);
+INSERT INTO departamento VALUES(1, "Ventas", 3000000);
+INSERT INTO departamento VALUES(2, "Recursos Humanos", 1000000);
+INSERT INTO departamento VALUES(3, "Ingeniería", 20000000);
+INSERT INTO departamento VALUES(4, "Marketing", 100000000);
+INSERT INTO departamento VALUES(5, "Diseño Gráfico", 9233974.78);
+INSERT INTO departamento VALUES(6, "Salud", 8987234.99);
+INSERT INTO departamento VALUES(7, "Sistemas", 7896000);
+INSERT INTO departamento VALUES(8, "Arte", 4598667.96);
 
 --Creación de empleados para hacer pruebas
 INSERT INTO empleado VALUES(1, "V26555455", "Miguel", "Gozaine", "Arrieche", 3);
