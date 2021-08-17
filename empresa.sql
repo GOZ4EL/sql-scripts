@@ -46,7 +46,7 @@ INSERT INTO empleado VALUES(7, "V6753289", "Manuel", "Santos", "", 4);
 INSERT INTO empleado VALUES(8, "E82678901", "Xiao", "Han", "", 7);
 INSERT INTO empleado VALUES(9, "E50845276", "Viktor", "Lindeman", "Strauss", 8);
 INSERT INTO empleado VALUES(10, "V20756990", "Nicolás", "Schurman", "LIndeman", 3);
-INSERT INTO empleado VALUES(11, "V23906154", "Vanesa", "Escobar", "Sequera", 6);
+INSERT INTO empleado VALUES(11, "V23903549", "Vanesa", "Escobar", "Sequera", 6);
 INSERT INTO empleado VALUES(12, "V5672189", "Rosa", "Rivero", "Zhao", 2);
 INSERT INTO empleado VALUES(13, "V23678900", "Giuseppina", "Coletti", "Gozaine", 8);
 
