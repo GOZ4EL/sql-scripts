@@ -12,7 +12,7 @@ CREATE TABLE Emp (
   Apellido varchar(50) NULL,
   Oficio varchar(50) NULL,
   Dir int NULL,
-  Fecha_Alt SMALLDATETIME NULL,
+  Fecha_Alt DATETIME NULL,
   Salario decimal(9, 2) NULL,
   Comision decimal(9, 2) NULL,
   Dept_No int NULL,
