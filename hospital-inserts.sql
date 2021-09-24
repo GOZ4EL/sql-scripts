@@ -33,149 +33,149 @@ INSERT INTO Emp (
   Dept_No
 )
 VALUES (
-  7369, 
-  'SANCHEZ', 
-  'EMPLEADO', 
-  7902, 
-  '17/12/1980', 
-  10400, 
-  0, 
-  20
-), (
-  7499, 
-  'ARROYO', 
-  'VENDEDOR', 
-  7698, 
-  '22/02/1981', 
-  208000, 
-  39000, 
-  30
-), (
-  7521, 
-  'SALA', 
-  'VENDEDOR', 
-  689, 
-  '22/02/1981', 
-  162500, 
-  65000, 
-  30
-), (
-  7566, 
-  'JIMENEZ', 
-  'DIRECTOR', 
-  7839, 
-  '02/04/1981', 
-  386750, 
-  0, 
-  20
-), (
-  7654, 
-  'MARTIN', 
-  'VENDEDOR', 
-  7698, 
-  '28/09/1981', 
-  182000, 
-  182000, 
-  30
-), (
-  7698, 
-  'NEGRO', 
-  'DIRECTOR', 
-  7839, 
-  '01/05/1981', 
-  370500, 
-  0, 
-  30
-), (
-  7782, 
-  'CEREZO', 
-  'DIRECTOR', 
-  7839, 
-  '09/06/1981', 
-  318500, 
-  0, 
-  10
-), (
-  7788, 
-  'NINO', 
-  'ANALISTA', 
-  7566, 
-  '30/03/1987', 
-  390000, 
-  0, 
-  20
-), (
-  7839, 
-  'REY', 
-  'PRESIDENTE', 
-  0, 
-  '17/11/1981', 
-  650000, 
-  0, 
-  10
-), (
-  7844, 
-  'TOVAR', 
-  'VENDEDOR', 
-  7698, 
-  '08/09/1981', 
-  195000, 
-  0, 
-  30
-), (
-  7876, 
-  'ALONSO', 
-  'EMPLEADO', 
-  7788, 
-  '03/05/1987', 
-  143000, 
-  0, 
-  20
-), (
-  7900, 
-  'JIMENO', 
-  'EMPLEADO', 
-  7698, 
-  '03/12/1981', 
-  123500, 
-  0, 
-  30
-), (
-  7902, 
-  'FERNANDEZ', 
-  'ANALISTA', 
-  7566, 
-  '03/12/1981', 
-  390000, 
-  0, 
-  20
-), (
-  7934, 
-  'MUÑOZ', 
-  'EMPLEADO', 
-  7782, 
-  '23/06/1982', 
-  169000, 
-  0, 
-  10
-), (
-  7119, 
-  'SERRA', 
-  'DIRECTOR', 
-  7839, 
-  '19/11/1983', 
-  225000, 
-  39000, 
-  20
-), (
-  7322, 
-  'GARCIA', 
-  'EMPLEADO', 
-  7119, 
-  '12/10/1982', 
-  129000, 
-  0, 
-  20
+	7369, 
+	'SANCHEZ', 
+	'EMPLEADO', 
+	7902, 
+	'1980-12-17', 
+	10400, 
+	0, 
+	20
+	), (
+	7499, 
+	'ARROYO', 
+	'VENDEDOR', 
+	7698, 
+	'1981-02-22', 
+	208000, 
+	39000, 
+	30
+	), (
+	7521, 
+	'SALA', 
+	'VENDEDOR', 
+	689, 
+	'1981-02-22', 
+	162500, 
+	65000, 
+	30
+	), (
+	7566, 
+	'JIMENEZ', 
+	'DIRECTOR', 
+	7839, 
+	'1981-04-02', 
+	386750, 
+	0, 
+	20
+	), (
+	7654, 
+	'MARTIN', 
+	'VENDEDOR', 
+	7698, 
+	'1981-09-28', 
+	182000, 
+	182000, 
+	30
+	), (
+	7698, 
+	'NEGRO', 
+	'DIRECTOR', 
+	7839, 
+	'1981-05-01', 
+	370500, 
+	0, 
+	30
+	), (
+	7782, 
+	'CEREZO', 
+	'DIRECTOR', 
+	7839, 
+	'1981-06-09', 
+	318500, 
+	0, 
+	10
+	), (
+	7788, 
+	'NINO', 
+	'ANALISTA', 
+	7566, 
+	'1987-03-30', 
+	390000, 
+	0, 
+	20
+	), (
+	7839, 
+	'REY', 
+	'PRESIDENTE', 
+	0, 
+	'1981-11-17', 
+	650000, 
+	0, 
+	10
+	), (
+	7844, 
+	'TOVAR', 
+	'VENDEDOR', 
+	7698, 
+	'1981-09-08', 
+	195000, 
+	0, 
+	30
+	), (
+	7876, 
+	'ALONSO', 
+	'EMPLEADO', 
+	7788, 
+	'1987-05-03', 
+	143000, 
+	0, 
+	20
+	), (
+	7900, 
+	'JIMENO', 
+	'EMPLEADO', 
+	7698, 
+	'1981-12-03', 
+	123500, 
+	0, 
+	30
+	), (
+	7902, 
+	'FERNANDEZ', 
+	'ANALISTA', 
+	7566, 
+	'1981-12-03', 
+	390000, 
+	0, 
+	20
+	), (
+	7934, 
+	'MUÑOZ', 
+	'EMPLEADO', 
+	7782, 
+	'1982-06-23', 
+	169000, 
+	0, 
+	10
+	), (
+	7119, 
+	'SERRA', 
+	'DIRECTOR', 
+	7839, 
+	'1983-11-19', 
+	225000, 
+	39000, 
+	20
+	), (
+	7322, 
+	'GARCIA', 
+	'EMPLEADO', 
+	7119, 
+	'1982-10-12', 
+	129000, 
+	0, 
+	20
 );
 INSERT INTO Hospital (
   Hospital_Cod,
@@ -289,70 +289,70 @@ VALUES (
   'Cajal R.', 
   'Cardiología'
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   1, 
   22, 
   'Recuperación', 
   10
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   1, 
   45, 
   'Recuperación', 
   15
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   2, 
   22, 
   'Maternidad', 
   34
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   2, 
   45, 
   'Maternidad', 
   24
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   3, 
   19, 
   'Cuidados Intensivos', 
   21
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   3, 
   18, 
   'Cuidados Intensivos', 
   10
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   4, 
   18, 
   'Cardiología', 
   53
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   4, 
   45, 
   'Cardiología', 
   55
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   6, 
   19, 
   'Psiquiátricos', 
   67
 );
-INSERT INTO SALA
+INSERT INTO Sala
 VALUES (
   6, 
   22, 
